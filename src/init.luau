@@ -1,4 +1,4 @@
-local bezier = require "./bezier"
+local bezier = require(script.bezier)
 
 return {
     bezier = bezier
