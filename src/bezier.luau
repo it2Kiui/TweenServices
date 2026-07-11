@@ -12,7 +12,7 @@ type options = {
 }
 
 function bezier.tween(options: options)
-    
+    print("tweening")
 end
 
 return bezier
