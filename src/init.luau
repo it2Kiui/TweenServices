@@ -1,3 +1,5 @@
-local lib = require "./src/lib"
+local bezier = require "./bezier"
 
-return lib
+return {
+    bezier = bezier
+}
