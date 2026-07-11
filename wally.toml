@@ -1,0 +1,25 @@
+[package]
+name = "it2kiui/tweenservice"
+description = "A Utility tweening service module. "
+version = "0.0.5"
+license = "MIT"
+authors = ["it2Kiui"]
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+include = ["LICENSE", "src"]
+exclude = [
+    ".github",
+    "docs",
+	"test",
+	".gitattributes",
+	".gitignore",
+    ".luaurc",
+	"CHANGELOG.md",
+	"README.md",
+    "todo.md"
+]
+
+[dependencies]
+Signal = "sleitnick/signal@2.0.0"
+Janitor = "howmanysmall/janitor@1.17.0"
